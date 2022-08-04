@@ -3,19 +3,35 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 55;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E643A0BC289BD0B20004AB62 /* Main-3.png in Resources */ = {isa = PBXBuildFile; fileRef = E643A0B9289BD0B20004AB62 /* Main-3.png */; };
+		E643A0BD289BD0B20004AB62 /* Main-2.png in Resources */ = {isa = PBXBuildFile; fileRef = E643A0BA289BD0B20004AB62 /* Main-2.png */; };
+		E643A0BE289BD0B20004AB62 /* Main-1.png in Resources */ = {isa = PBXBuildFile; fileRef = E643A0BB289BD0B20004AB62 /* Main-1.png */; };
 		E65C635025F4281B00E7912F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E65C634F25F4281B00E7912F /* AppDelegate.swift */; };
 		E65C635225F4281B00E7912F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E65C635125F4281B00E7912F /* SceneDelegate.swift */; };
 		E65C635425F4281B00E7912F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E65C635325F4281B00E7912F /* ViewController.swift */; };
 		E65C635725F4281B00E7912F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E65C635525F4281B00E7912F /* Main.storyboard */; };
 		E65C635925F4281C00E7912F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E65C635825F4281C00E7912F /* Assets.xcassets */; };
 		E65C635C25F4281C00E7912F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E65C635A25F4281C00E7912F /* LaunchScreen.storyboard */; };
+		E65C636725F428D000E7912F /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E65C636625F428D000E7912F /* NetworkManager.swift */; };
+		E65C637125F4355200E7912F /* ZodiacSignViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E65C637025F4355200E7912F /* ZodiacSignViewController.swift */; };
+		E65C637425F4357000E7912F /* PredictionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E65C637325F4357000E7912F /* PredictionViewController.swift */; };
+		E65C637725F4367600E7912F /* PredictionSceneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E65C637625F4367600E7912F /* PredictionSceneViewController.swift */; };
+		E660719425F800DD0037A896 /* Slide.swift in Sources */ = {isa = PBXBuildFile; fileRef = E660719325F800DD0037A896 /* Slide.swift */; };
+		E660719725F8011C0037A896 /* Slide.xib in Resources */ = {isa = PBXBuildFile; fileRef = E660719625F8011C0037A896 /* Slide.xib */; };
+		E672E3A325F4DD3A004A955E /* NumerologyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E672E3A225F4DD3A004A955E /* NumerologyViewController.swift */; };
+		E672E3A825F51EFD004A955E /* MatchSceneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E672E3A725F51EFD004A955E /* MatchSceneViewController.swift */; };
+		E672E3AD25F6B312004A955E /* HoroscopeSceneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E672E3AC25F6B312004A955E /* HoroscopeSceneViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E643A0B7289BCF950004AB62 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		E643A0B9289BD0B20004AB62 /* Main-3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Main-3.png"; sourceTree = "<group>"; };
+		E643A0BA289BD0B20004AB62 /* Main-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Main-2.png"; sourceTree = "<group>"; };
+		E643A0BB289BD0B20004AB62 /* Main-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Main-1.png"; path = "Screenshots/Main-1.png"; sourceTree = SOURCE_ROOT; };
 		E65C634C25F4281B00E7912F /* astrology_app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = astrology_app.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E65C634F25F4281B00E7912F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E65C635125F4281B00E7912F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +40,15 @@
 		E65C635825F4281C00E7912F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E65C635B25F4281C00E7912F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E65C635D25F4281C00E7912F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E65C636625F428D000E7912F /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		E65C637025F4355200E7912F /* ZodiacSignViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZodiacSignViewController.swift; sourceTree = "<group>"; };
+		E65C637325F4357000E7912F /* PredictionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PredictionViewController.swift; sourceTree = "<group>"; };
+		E65C637625F4367600E7912F /* PredictionSceneViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PredictionSceneViewController.swift; sourceTree = "<group>"; };
+		E660719325F800DD0037A896 /* Slide.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Slide.swift; sourceTree = "<group>"; };
+		E660719625F8011C0037A896 /* Slide.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Slide.xib; sourceTree = "<group>"; };
+		E672E3A225F4DD3A004A955E /* NumerologyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumerologyViewController.swift; sourceTree = "<group>"; };
+		E672E3A725F51EFD004A955E /* MatchSceneViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchSceneViewController.swift; sourceTree = "<group>"; };
+		E672E3AC25F6B312004A955E /* HoroscopeSceneViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HoroscopeSceneViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,9 +62,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E643A0B8289BD08C0004AB62 /* Screenshots */ = {
+			isa = PBXGroup;
+			children = (
+				E643A0BB289BD0B20004AB62 /* Main-1.png */,
+				E643A0BA289BD0B20004AB62 /* Main-2.png */,
+				E643A0B9289BD0B20004AB62 /* Main-3.png */,
+			);
+			path = Screenshots;
+			sourceTree = "<group>";
+		};
 		E65C634325F4281A00E7912F = {
 			isa = PBXGroup;
 			children = (
+				E643A0B8289BD08C0004AB62 /* Screenshots */,
+				E643A0B7289BCF950004AB62 /* README.md */,
 				E65C634E25F4281B00E7912F /* astrology_app */,
 				E65C634D25F4281B00E7912F /* Products */,
 			);
@@ -56,15 +93,64 @@
 		E65C634E25F4281B00E7912F /* astrology_app */ = {
 			isa = PBXGroup;
 			children = (
+				E65C636525F4288B00E7912F /* ViewControllers */,
+				E65C636425F4288200E7912F /* Helpers */,
 				E65C634F25F4281B00E7912F /* AppDelegate.swift */,
 				E65C635125F4281B00E7912F /* SceneDelegate.swift */,
-				E65C635325F4281B00E7912F /* ViewController.swift */,
 				E65C635525F4281B00E7912F /* Main.storyboard */,
 				E65C635825F4281C00E7912F /* Assets.xcassets */,
 				E65C635A25F4281C00E7912F /* LaunchScreen.storyboard */,
 				E65C635D25F4281C00E7912F /* Info.plist */,
 			);
 			path = astrology_app;
+			sourceTree = "<group>";
+		};
+		E65C636425F4288200E7912F /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				E65C636625F428D000E7912F /* NetworkManager.swift */,
+				E660719325F800DD0037A896 /* Slide.swift */,
+				E660719625F8011C0037A896 /* Slide.xib */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		E65C636525F4288B00E7912F /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				E65C635325F4281B00E7912F /* ViewController.swift */,
+				E672E3AB25F6B2D5004A955E /* HoroscopeViewControllers */,
+				E672E3A625F51EAC004A955E /* MatchViewControllers */,
+				E672E3A525F51EA0004A955E /* PredictionViewControllers */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		E672E3A525F51EA0004A955E /* PredictionViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				E65C637025F4355200E7912F /* ZodiacSignViewController.swift */,
+				E65C637325F4357000E7912F /* PredictionViewController.swift */,
+				E65C637625F4367600E7912F /* PredictionSceneViewController.swift */,
+				E672E3A225F4DD3A004A955E /* NumerologyViewController.swift */,
+			);
+			path = PredictionViewControllers;
+			sourceTree = "<group>";
+		};
+		E672E3A625F51EAC004A955E /* MatchViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				E672E3A725F51EFD004A955E /* MatchSceneViewController.swift */,
+			);
+			path = MatchViewControllers;
+			sourceTree = "<group>";
+		};
+		E672E3AB25F6B2D5004A955E /* HoroscopeViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				E672E3AC25F6B312004A955E /* HoroscopeSceneViewController.swift */,
+			);
+			path = HoroscopeViewControllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -102,7 +188,7 @@
 				};
 			};
 			buildConfigurationList = E65C634725F4281A00E7912F /* Build configuration list for PBXProject "astrology_app" */;
-			compatibilityVersion = "Xcode 9.3";
+			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -124,9 +210,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E643A0BC289BD0B20004AB62 /* Main-3.png in Resources */,
 				E65C635C25F4281C00E7912F /* LaunchScreen.storyboard in Resources */,
 				E65C635925F4281C00E7912F /* Assets.xcassets in Resources */,
 				E65C635725F4281B00E7912F /* Main.storyboard in Resources */,
+				E660719725F8011C0037A896 /* Slide.xib in Resources */,
+				E643A0BE289BD0B20004AB62 /* Main-1.png in Resources */,
+				E643A0BD289BD0B20004AB62 /* Main-2.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,8 +227,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E65C637725F4367600E7912F /* PredictionSceneViewController.swift in Sources */,
+				E672E3A325F4DD3A004A955E /* NumerologyViewController.swift in Sources */,
+				E672E3A825F51EFD004A955E /* MatchSceneViewController.swift in Sources */,
+				E65C636725F428D000E7912F /* NetworkManager.swift in Sources */,
 				E65C635425F4281B00E7912F /* ViewController.swift in Sources */,
 				E65C635025F4281B00E7912F /* AppDelegate.swift in Sources */,
+				E672E3AD25F6B312004A955E /* HoroscopeSceneViewController.swift in Sources */,
+				E660719425F800DD0037A896 /* Slide.swift in Sources */,
+				E65C637425F4357000E7912F /* PredictionViewController.swift in Sources */,
+				E65C637125F4355200E7912F /* ZodiacSignViewController.swift in Sources */,
 				E65C635225F4281B00E7912F /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -216,7 +314,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -271,7 +369,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -289,6 +387,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = EWPW3PLNU2;
 				INFOPLIST_FILE = astrology_app/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -296,7 +395,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.pb.astrology-app";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -308,6 +407,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = EWPW3PLNU2;
 				INFOPLIST_FILE = astrology_app/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -315,7 +415,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.pb.astrology-app";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
